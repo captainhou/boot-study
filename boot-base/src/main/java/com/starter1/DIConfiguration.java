@@ -10,9 +10,4 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableAspectJAutoProxy
 public class DIConfiguration {
 
-    @Bean
-    public NoService get() {
-        return new NoService();
-
-    }
 }
